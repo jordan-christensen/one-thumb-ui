@@ -1,0 +1,31 @@
+# Elixir build artifacts
+/_build
+/deps
+
+# Phoenix-generated assets
+/node_modules
+/priv/static/assets
+
+# Docker-related files
+/docker-compose.override.yml
+pgdata/
+
+# Local environment files
+.env
+.env.*
+
+# Editor/IDE settings and temporary files
+*.swp
+*.swo
+*.DS_Store
+.idea/
+.vscode/
+
+# Log files
+/log
+*.log
+
+# Miscellaneous OS-generated files
+Thumbs.db
+.DS_Store
+
